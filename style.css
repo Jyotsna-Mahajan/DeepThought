@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    background-color: #F0F0F0;
+}
+
+#img1{
+    margin-top: 15px;
+    margin-right: 500px;
+    margin-bottom: 15px;
+}
+
+.icons{
+   margin-top: 15px;
+   margin-bottom: 15px;
+   font-size: 18px;
+   display: flex;
+   gap: 20px;
+   cursor: pointer;
+   
+}
+
+
+
+#icon1{
+    background-color: #3683F0;
+    color: white;
+    width: 35px;
+    padding: 5px;
+    border-radius: 50px;
+    
+}
+
+#icon1:hover{
+    transform: scale(1.2);
+}
+
+#icon2{
+    background-color: #3683F0;
+    color: white;
+    width: 35px;
+    padding: 5px;
+    border-radius: 50px;
+   
+}
+
+#icon2:hover{
+    transform: scale(1.2);
+}
+
+#icon3{
+    background-color: #3683F0;
+    color: white;
+    width: 35px;
+    padding: 5px;
+    border-radius: 50px;
+}
+
+#icon3:hover{
+    transform: scale(1.2);
+}
+
+#icon4{
+    color: #3683F0;
+    width: 35px;
+    padding: 5px;
+    
+}
+
+.task{
+    margin-top: 80px;
+    margin-left: 80px;
+    margin-right: 50px;
+    padding: 10px;
+    background-color: #E9ECEF;
+}
+
+p{
+    margin-top: 10px;
+}
+
+#taskContainer1{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    gap: 40px;
+}
+.asset-card {
+  background: #ffffff;
+  border-radius: 15px;
+  border: 1px solid black;
+  width: 500px;
+  height: 400px;
+  
+}
+
+.asset-title {
+    text-align: center;
+    font-weight: bold;
+    display: block;
+    color: white;
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    
+}
+
+.asset-description{
+    margin-top: 20px;
+    margin-left: 20px;
+
+}
+
+.asset-image {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  margin-top: 20px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 30px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+   
+}
+
+
+
+#img2{
+    width: 50px;
+    height: 50px;
+    background-color: #0029FF;
+    border-radius: 35px;
+    padding: 10px;
+}
+
+#img2:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+#img3{
+    width: 50px;
+    height: 50px;
+    background-color: #0029FF;
+    border-radius: 35px;
+    padding: 10px;
+}
+
+#img3:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+#img4{
+    width: 50px;
+    height: 50px;
+    background-color: #0029FF;
+    border-radius: 35px;
+    padding: 10px;
+}
+
+#img4:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
